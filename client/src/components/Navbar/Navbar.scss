@@ -1,0 +1,44 @@
+.navbar {
+    display: flex;
+    padding: 40px 0px;
+    justify-content: space-between;
+    align-items: center;
+    &__logo {  
+        & > a {
+            text-decoration: none;
+            color: #FFFFFF;
+            font-size: 28px;
+            font-weight: 900;
+        }
+    }
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    &__link {
+        color: rgb(224, 162, 162);
+        font-size: 24px;
+        transition: color .3s ease-in-out;
+        &:hover {
+            color: #FFFFFF;
+        }
+    }
+}
+
+.login {
+    &__btn {
+        padding: 12px 24px;
+        background: none;
+        font-family: inherit;
+        font-size: 18px;
+        color: #FFFFFF;
+        border: 1px solid #FFFFFF;
+        transition: background .2s ease-in-out, color .1s ease-in-out;
+        &:hover {
+            background: #FFFFFF;
+            color: #3324be;
+        }
+    }
+}
